@@ -43,8 +43,14 @@
 	</array>
     <!-- 카메라 사용 권한 설명 -->
     <key>NSCameraUsageDescription</key>
-    <string>이 앱은 실시간 랜드마크 감지를 위해 카메라를 사용합니다.</string>
+    <string>이 앱은 실시간 포즈 감지를 위해 카메라를 사용합니다.</string>
 
+    <!-- 사진 라이브러리 권한 (자동 저장용) -->
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>화면 녹화 영상을 자동으로 갤러리에 저장하기 위해 사진 라이브러리 접근이 필요합니다.</string>
+
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>화면 녹화 영상을 갤러리에 저장하기 위해 사진 라이브러리 접근이 필요합니다.</string>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>

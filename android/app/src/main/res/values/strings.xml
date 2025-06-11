@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">new_pose</string>
+    <string name="accessibility_service_description">포즈 감지 앱의 자동 화면 녹화를 위한 접근성 서비스입니다. 사용자가 포즈 감지를 시작할 때 화면 녹화를 자동으로 시작합니다.</string>
+</resources>

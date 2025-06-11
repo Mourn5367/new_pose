@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: LandmarkDetectionScreen(cameras: cameras),
+      home: AutoScreenRecordingScreen(cameras: cameras),
       debugShowCheckedModeBanner: false,
     );
   }

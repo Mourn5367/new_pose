@@ -40,6 +40,10 @@ dependencies:
   # 비디오 녹화 및 저장
   path_provider: ^2.1.1
   permission_handler: ^11.0.1
+  gal: ^2.3.0  # 갤러리 직접 저장용 패키지 (최신, 안정적)
+  ffmpeg_kit_flutter_new: ^1.6.1
+  # 또는
+  camera_avfoundation: ^0.9.0  # iOS AVFoundation 직접 사용
 dev_dependencies:
   flutter_test:
     sdk: flutter

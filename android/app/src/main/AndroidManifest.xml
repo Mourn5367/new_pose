@@ -10,6 +10,16 @@
     <!-- 인터넷 권한 (ML Kit 모델 다운로드용) -->
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <!-- Android 13+ (API 33+)용 세분화된 미디어 권한 -->
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <!-- 자동 화면 녹화를 위한 권한들 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+
     <application
         android:label="new_pose"
         android:name="${applicationName}"
